@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Jadwal Shalat</title>
+</head>
+<body>
+    <section>
+        <img src="mosque.jpg" class="mosque" alt="">
+        <header>
+            <a href="#" class="logo">JadwalShalat</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Calendar</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+        <div class="container">
+            <h3>DAFTAR KOTA</h3>
+            <form action="" class="form1 input-group">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control input-search" name="" id="search-item" placeholder="Cari Kota ....">
+            </form>
+        
+            <div class="list">
+                <div class="list-group card-list hidden-list">
+
+                </div>
+            </div>
+        </div>
+
+
+            <!-- <div class="input-group ">
+                <input type="text" class="form-control input-search" placeholder="Cari Kota ....." >
+            </div> -->
+            <!-- <form action="" class="forem"> -->
+            <!-- <div class="list-group card-list hidden-list"> -->
+                <!-- <a href="#" id="nama-kota" class="list-group-item list-group-item-action">Jakarta</a>
+                <a href="#" id="nama-kota" class="list-group-item list-group-item-action">Bandung</a>
+                <a href="#" id="nama-kota" class="list-group-item list-group-item-action">Yogyakarta</a> -->
+              <!-- </div> -->
+                <!-- <select name="cars" class="kota" id="cars" onchange="gantiKota(this.value)">
+                  <option value="Jakarta" id="667">Jakarta</option>
+                  <option value="Yogyakarta" id="783">Yogyakarta</option>
+                  <option value="Purbalingga" id="725">Purbalingga</option>
+                  <option value="Banjarnegara" id="706">Banjarnegara</option>
+                  <option value="Bandung" id="679">Bandung</option>
+                  <option value="Bekasi" id="681">Bekasi</option>
+                  <option value="Bogor" id="682">Bogor</option>
+                  <option value="Demak" id="713">Demak</option>
+                  <option value="Jombang" id="748">Jombang</option>
+                  <option value="Semarang" id="735">Semarang</option>
+                </select> -->
+            <!-- </form> -->
+            <!-- <form action="" class="forem"> -->
+            <div class="textBox">
+                <div class="forem">
+                <h1>JADWAL SHALAT</h1>
+                <p class="par" id="kota"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg> <span id="judulKota" class="judul-kota"></span></p>
+            <input class="tanggal" type="date" id="dt" onchange="gantiTanggal()"/>
+                <form>
+                    <table class="tabel">
+                        <tr>
+                            <td>Imsak</td>
+                            <td><input class="shalat" type="text" id="imsak"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Subuh</td>
+                            <td><input class="shalat" type="text" id="subuh"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Dhuha</td>
+                            <td><input class="shalat" type="text" id="dhuha"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Terbit</td>
+                            <td><input class="shalat" type="text" id="terbit"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Dzuhur</td>
+                            <td><input class="shalat" type="text" id="dzuhur"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Ashar</td>
+                            <td><input class="shalat" type="text" id="ashar"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Maghrib</td>
+                            <td><input class="shalat" type="text" id="maghrib"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Isya</td>
+                            <td><input class="shalat" type="text" id="isya"><br></td>
+                        </tr>
+                    </table>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
